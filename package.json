@@ -1,0 +1,18 @@
+{
+  "name": "sb-dropdown",
+  "version": "0.0.1",
+  "description": "A super basic dropdown menu component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Bradley Botha",
+    "email": "brad426@gmail.com",
+    "url": "https://github.com/brad426/"
+  },
+  "license": "WTFPL",
+  "dependencies": {
+    "object-assign": "^4.0.1"
+  }
+}
