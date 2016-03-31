@@ -14,5 +14,13 @@
   "license": "WTFPL",
   "dependencies": {
     "object-assign": "^4.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brad426/sb-dropdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brad426/sb-dropdown/issues"
+  },
+  "homepage": "https://github.com/brad426/sb-dropdown"
 }
