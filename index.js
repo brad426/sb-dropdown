@@ -34,7 +34,7 @@ Dropdown.prototype = {
     isOpen: false,
 
     render: function() {        
-        this.dropdownPanel.classList.toggle('hidden', ! this.isOpen)
+        this.dropdownPanel.style.display = this.isOpen ? '' : 'none';
     },
 
     /**
