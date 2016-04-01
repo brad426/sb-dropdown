@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <title>sb-dropdown</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />        
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body>
+
+        <button class="dropdown btn btn-primary">
+            Toggle dropdown
+            <ul class="dropdown-panel" data-panel>
+                <li>thing 1</li>
+                <li>thing 2</li>
+            </ul>
+        </button>
+
+        <!-- /////////////////////////////////////////////////////////// -->
+
+        <button class="dropdown btn btn-default">
+            No "autoHide"
+            <ul class="dropdown-panel" data-panel>
+                <li>thing 1</li>
+                <li>thing 2</li>
+            </ul>
+        </button>
+
+        <script src="../dist/sb-dropdown.js"></script>
+        <script type="text/javascript">
+            var btnEls = document.body.querySelectorAll('.btn');
+            var dropdown1 = new Dropdown(btnEls[0]);
+            var dropdown2 = new Dropdown(btnEls[1], {autoHide: false, hideOnPanelClick: false});
+        </script>
+    </body>
+</html>
