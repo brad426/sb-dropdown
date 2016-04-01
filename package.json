@@ -1,6 +1,6 @@
 {
   "name": "sb-dropdown",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A super basic dropdown menu component",
   "main": "index.js",
   "scripts": {
