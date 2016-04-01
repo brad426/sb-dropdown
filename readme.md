@@ -46,6 +46,8 @@ var toggleEl = document.body.querySelector('.dropdown');
 var menu = new Dropdown(toggleEl);
 ```
 
+If you don't want to use the commonjs module, you can grab a standalone version of the dropdown in [/dist](/dist)
+
 ---
 
 If you choose to place your `.dropdown-panel` outside of the `.dropdown` element, you must place the `data-panel` attribute on the `.dropdown` element and use it to specify which panel this dropdown will toggle. 
@@ -54,9 +56,12 @@ Example:
 <button class="dropdown" data-panel="#panel-1">...</button>
 <div id="panel-1" class="dropdown-panel">...</div>
 ```
+
 Any valid CSS selector can be used as the value for `data-panel`
 
 ---
+
+####See the [/example](/example) directory more.
 
 ## Usage
 ```javascript
