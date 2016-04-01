@@ -1,6 +1,6 @@
 {
   "name": "sb-dropdown",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A super basic dropdown menu component",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,12 @@
   "license": "WTFPL",
   "dependencies": {
     "object-assign": "^4.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
   },
   "repository": {
     "type": "git",
