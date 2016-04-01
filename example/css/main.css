@@ -11,7 +11,7 @@
     background-color: #ccc;
 }
 
-// For example/external-panel.html
+/* For example/external-panel.html */
 .dropdown-panel-bottom {
     position: fixed;
     top: auto;
